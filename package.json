@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "postinstall": "npm install --prefix backend"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "crypto": "^1.0.1"
   }
 }
